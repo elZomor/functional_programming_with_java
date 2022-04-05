@@ -1,6 +1,6 @@
-package com.company;
+package com.company.introduction;
 
-public class Introduction {
+public class I_Introduction {
     public static void main(String[] args) {
         int[] arr = {1 , 3 , 2 , 4 , 5, 1};
         // To get the average of an array //
