@@ -1,6 +1,6 @@
-package com.company.firstClassFunctions;
+package com.company.advancedTopics;
 
-public class IX_Recursion {
+public class IV_Recursion {
 
     public static void main(String[] args) {
         countToCounterRecursion(0,10);

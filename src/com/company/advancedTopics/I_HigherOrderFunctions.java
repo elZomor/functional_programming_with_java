@@ -1,9 +1,9 @@
-package com.company.firstClassFunctions;
+package com.company.advancedTopics;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class VI_HigherOrderFunctions {
+public class I_HigherOrderFunctions {
     public static void main(String[] args) {
         BiFunction<Float, Float, Float> divide = (x, y) -> x / y;
         BiFunction<Float, Float, Float> divideInternalCheck = (x, y) -> {

@@ -1,11 +1,11 @@
-package com.company.firstClassFunctions;
+package com.company.advancedTopics;
 
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class VII_Composition {
+public class II_Composition {
     public static void main(String[] args) {
         Function<Float, Float> calcPerc = x -> (x / 350) * 100;
         Function<Float, String> checkSuccess = x -> {

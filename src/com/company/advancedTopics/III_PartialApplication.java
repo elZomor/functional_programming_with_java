@@ -1,9 +1,11 @@
-package com.company.firstClassFunctions;
+package com.company.advancedTopics;
+
+import com.company.firstClassFunctions.TriFunction;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class VIII_PartialApplication {
+public class III_PartialApplication {
     public static void main(String[] args) {
         TriFunction<Integer, Integer, Integer, Integer> add = (x, y, z) -> x + y + z ;
 
